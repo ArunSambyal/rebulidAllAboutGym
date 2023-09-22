@@ -479,7 +479,7 @@
   height: auto;
   max-width: 100%;
   border: none;
-  border-radius: 0;
+  border-radius: 20px;
   box-shadow: none;
 }
 .elementor
