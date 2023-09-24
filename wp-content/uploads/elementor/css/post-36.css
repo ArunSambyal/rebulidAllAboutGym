@@ -145,7 +145,8 @@
   .elementor-36
     .elementor-element.elementor-element-2c4e9ad
     .elementor-nav-menu__container.elementor-nav-menu--dropdown {
-    margin-top: 18px !important;
+    margin-top: -40px !important;
+    margin-left: -40px;
   }
   .elementor-36 .elementor-element.elementor-element-2c4e9ad {
     --nav-menu-icon-size: 22px;
