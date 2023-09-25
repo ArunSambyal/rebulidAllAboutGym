@@ -15593,7 +15593,7 @@ ul.elementor-nav-menu--dropdown a:hover {
 }
 .elementor-nav-menu--stretch
   .elementor-nav-menu__container.elementor-nav-menu--dropdown {
-  position: absolute;
+  /* position: absolute; */
   z-index: 9997;
 }
 @media (max-width: 767px) {
