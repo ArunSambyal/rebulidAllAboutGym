@@ -45,7 +45,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 
 		.elementor-add-new-section .elementor-add-templately-promo-button{
             background-color: #5d4fff;
-            background-image: url("./styles/images/content/20230904_171239.jpg");
+            background-image: url(./styles/images/content/20230904_171239.jpg);
             background-repeat: no-repeat;
             background-position: center center;
             position: relative;
@@ -1102,6 +1102,7 @@ media="all"
 								placeholder="Email address*"
 								required="required"
 								aria-required="true"
+								autocomplete="off"
 							  />
 							</div>
 							<div
@@ -1122,6 +1123,7 @@ media="all"
 								placeholder="Contact number*"
 								required="required"
 								aria-required="true"
+								autocomplete="off"
 							  />
 							</div>
 							<div
@@ -1358,9 +1360,7 @@ wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 <script src='./wp-content/plugins/elementor-pro/assets/js/3.7frontend.min.js' id='elementor-pro-frontend-js'></script>
 <script src='./wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js' id='elementor-waypoints-js'></script>
 <script src='./wp-includes/js/jquery/ui/core.min.js' id='jquery-ui-core-js'></script>
-<script id="elementor-frontend-js-before">
-var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.16.4","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"additional_custom_breakpoints":true,"theme_builder_v2":true,"page-transitions":true,"notes":true,"e_scroll_snap":true},"urls":{"assets":"https:\/\/robkrizanovic.com\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":24,"title":"Fitness%20consulting%20-%20All%20AboutGym","excerpt":"","featuredImage":false}};
-</script>
+
 <script src='./wp-content/plugins/elementor/assets/js/frontend.min.js' id='elementor-frontend-js'></script>
 <script id="elementor-frontend-js-after">
 "use strict";jQuery(window).on("elementor/frontend/init",(function(){var e;e=elementorModules.frontend.handlers.Base.extend({onInit:function(){elementorModules.frontend.handlers.Base.prototype.onInit.apply(this,arguments),this.isWidgetStalker()&&this.$element.addClass("ob-got-stalker")},isWidgetStalker:function(){return"yes"===this.getElementSettings("_ob_widget_stalker_use")},onElementChange:function(e){"_ob_widget_stalker_use"===e&&("yes"===this.getElementSettings("_ob_widget_stalker_use")?this.$element.addClass("ob-got-stalker"):this.$element.removeClass("ob-got-stalker"))}}),elementorFrontend.hooks.addAction("frontend/element_ready/widget",(function(t){elementorFrontend.elementsHandler.addHandler(e,{$element:t})}))}));
