@@ -293,7 +293,7 @@ body.rtl .elementor-9 .elementor-element.elementor-element-6f7049d {
 .elementor-9
   .elementor-element.elementor-element-11c8284
   > .elementor-background-overlay {
-  background-image: url(../images/content/bg-img/bg1.jpg);
+  background-image: url(../images/content/20230904_171220.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -634,7 +634,7 @@ body.rtl .elementor-9 .elementor-element.elementor-element-a6af0cc {
 .ob-tele-eff-fade,
 .ob-tele-eff-zoom,
 .ob-tele-eff-stutter {
-  transition-duration: 500ms;
+  transition-duration: 800ms;
 }
 .elementor-9 .elementor-element.elementor-element-bd9efea.ob-is-teleporter {
   overflow: hidden;
@@ -1475,7 +1475,7 @@ body.rtl .elementor-9 .elementor-element.elementor-element-a6af0cc {
   .elementor-cta__title {
   font-family: "Oswald", Sans-serif;
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--e-global-color-primary);
 }
 .elementor-9
@@ -1578,7 +1578,7 @@ body.rtl .elementor-9 .elementor-element.elementor-element-a6af0cc {
   .elementor-cta__title {
   font-family: "Oswald", Sans-serif;
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--e-global-color-primary);
 }
 .elementor-9
