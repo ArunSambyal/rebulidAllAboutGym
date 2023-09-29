@@ -83,12 +83,12 @@
   .elementor-element.elementor-element-afee914
   .elementor-heading-title {
   color: var(--e-global-color-6ac06de);
-  font-family: "Montserrat", Sans-serif;
+  font-family: "Oswald", Sans-serif;
   font-size: 47px;
   font-weight: 600;
   text-transform: uppercase;
   line-height: 1.4em;
-  letter-spacing: 9.1px;
+  letter-spacing: 4.1px;
 }
 .elementor-9
   .elementor-element.elementor-element-d22cfc9
@@ -101,9 +101,10 @@
   .elementor-testimonial__text {
   color: var(--e-global-color-6ac06de);
   font-family: "Montserrat", Sans-serif;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 500;
-  font-style: normal;
+  line-height: 24px;
+  justify-content: center;
 }
 .elementor-9
   .elementor-element.elementor-element-d22cfc9
@@ -861,8 +862,8 @@ body.rtl .elementor-9 .elementor-element.elementor-element-a6af0cc {
   .elementor-heading-title {
   color: var(--e-global-color-6ac06de);
   font-family: "Oswald", Sans-serif;
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 00;
   letter-spacing: 0.5px;
 }
 .elementor-9

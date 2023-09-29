@@ -191,7 +191,7 @@ body.rtl .elementor-24 .elementor-element.elementor-element-b11bef7 {
   background-color: var(--e-global-color-92d4343);
 }
 .elementor-24 .elementor-element.elementor-element-8bb65c6 {
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  /* transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; */
   padding: 50px 0px 50px 0px;
 }
 .elementor-24
@@ -474,8 +474,8 @@ body.rtl .elementor-24 .elementor-element.elementor-element-642ad64 {
   .eael-accordion-header
   .fa-accordion-icon-svg
   svg {
-  color: var(--e-global-color-accent);
-  fill: var(--e-global-color-accent);
+  color: #EF4823;
+  fill: #EF4823;
 }
 .elementor-24
   .elementor-element.elementor-element-64f5ede
@@ -727,8 +727,8 @@ body.rtl .elementor-24 .elementor-element.elementor-element-642ad64 {
   .eael-accordion-header
   .fa-accordion-icon-svg
   svg {
-  color: var(--e-global-color-accent);
-  fill: var(--e-global-color-accent);
+  color: #EF4823;
+  fill:#EF4823;
 }
 .elementor-24
   .elementor-element.elementor-element-86c0f18

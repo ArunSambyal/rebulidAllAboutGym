@@ -2,7 +2,7 @@
   --e-global-color-primary: #1c1c1c;
   --e-global-color-secondary: #1c1c1c;
   --e-global-color-text: #1c1c1c;
-  --e-global-color-accent: #ccb280;
+  --e-global-color-accent: white;
   --e-global-color-92d4343: #272727;
   --e-global-color-6ac06de: #ffffff;
   --e-global-color-cfdec52: #e3e3e3;
@@ -41,8 +41,7 @@ body {
 .elementor-element {
   --widgets-spacing: 20px;
 }
- {
-}
+
 h1.entry-title {
   display: var(--page-title-display);
 }
