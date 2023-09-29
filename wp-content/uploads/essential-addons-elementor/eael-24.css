@@ -245,7 +245,7 @@
 }
 .eael-adv-accordion .eael-accordion-list .eael-accordion-content {
   display: block;
-  border: 1px solid #eee;
+  border: 0px solid #eee;
   padding: 15px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
