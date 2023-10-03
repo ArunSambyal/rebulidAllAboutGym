@@ -1398,7 +1398,7 @@ body.rtl .elementor-9 .elementor-element.elementor-element-a6af0cc {
   .elementor-element.elementor-element-024f61f
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-color: #e3e3e3;
+    background-color:#818a91;
 }
 .elementor-9
   .elementor-element.elementor-element-024f61f
@@ -1649,6 +1649,7 @@ body.rtl .elementor-9 .elementor-element.elementor-element-a6af0cc {
   font-weight: 700;
   letter-spacing: 5.9px;
   mix-blend-mode: overlay;
+  margin-top: -45px;
 }
 body:not(.rtl) .elementor-9 .elementor-element.elementor-element-7d65799 {
   left: 0%;
