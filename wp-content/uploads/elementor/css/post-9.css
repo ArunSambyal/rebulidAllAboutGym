@@ -1433,6 +1433,7 @@ body.rtl .elementor-9 .elementor-element.elementor-element-a6af0cc {
 .elementor-9
   .elementor-element.elementor-element-3a6bbec
   .elementor-cta__content {
+    z-index: auto;
   text-align: center;
   background-color: #02010100;
 }
@@ -1536,6 +1537,7 @@ body.rtl .elementor-9 .elementor-element.elementor-element-a6af0cc {
 .elementor-9
   .elementor-element.elementor-element-67bba6c
   .elementor-cta__content {
+    z-index: 0;
   text-align: center;
   background-color: #02010100;
 }
