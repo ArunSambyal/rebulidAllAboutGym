@@ -737,7 +737,7 @@
 
       .navbar-links a {
     text-transform: uppercase; /* Set text to uppercase */
-    margin-right: 20px; /* Add space between links */
+    margin-right: 7px; /* Add space between links */
     color: white;
     text-decoration: none;
   }
@@ -794,9 +794,12 @@
   z-index: 9999;
 
 } */
-.popup-container {
-    position: absolute;
-    z-index: 0; /* Adjust the z-index value as needed */
+
+
+
+  .popup-container {
+    position: fixed; /* Use fixed positioning to overlay content */
+    z-index: 99999; /* Adjust the z-index value as needed to ensure it's above the content */
     background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
     top: 0;
     left: 0;
@@ -807,39 +810,40 @@
     align-items: center;
   }
 
-.popup-content {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-  max-width: 400px;
-  text-align: left;
-}
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    text-align: left;
+  }
 
-.close-popup-button {
-  margin-top: 10px;
-  padding: 10px 20px;
-  background-color: #EF4823;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
+  .close-popup-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #EF4823;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
 
+  /* Adjust the positioning of the popups as needed */
+  #manrritpaul-popup {
+    position: fixed;
+    top: 150px;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+  }
 
-#manrritpaul-popup {
-  position: fixed;
-  top: 150px;
+  #amreen-popup {
+    position: fixed;
+    top: 150px;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+  }
 
-
-}
-
-#amreen-popup {
-  position: fixed;
-  top: 150px;
- 
-
-}
 
 
 
@@ -1298,7 +1302,7 @@ experience and expertise in gym planning & management and training & nutrition.
 
                           <h2
                             class="elementor-cta__title elementor-cta__content-item elementor-content-item"
-                          >
+>
                           Amreen Chadha 
                           <span style="font-size: 18px;color:#d44425cf"><br > Associate Consultant </span> 
                         
@@ -1316,7 +1320,7 @@ experience and expertise in gym planning & management and training & nutrition.
              
 
                           <div class="popup-container" id="amreen-popup">
-                            <ul style="color: #ffffff; text-align: left; ;">
+                            <ul style="color: #ffffff; text-align: left;">
                               <li>Exercise Science Expert (Women’s Health Specialist)</li>
                               <li>Founder of The Women’s Course (A comprehensive and scientifically backed information on Women’s health and fitness)</li>
                               <li>Certified in Food Science & Nutrition</li>
