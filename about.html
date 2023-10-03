@@ -625,6 +625,15 @@
         background: #272727;
         border-radius: 10px;
       }
+
+
+
+      .navbar-links a {
+    text-transform: uppercase; /* Set text to uppercase */
+    margin-right: 20px; /* Add space between links */
+    color: white;
+    text-decoration: none;
+  }
     </style>
 
     <link
@@ -674,7 +683,7 @@
     data-rsssl="1"
     class="page-template-default page page-id-24 wp-custom-logo elementor-default elementor-kit-11 elementor-page elementor-page-24"
   >
-    <div
+    <!-- <div
       data-elementor-type="header"
       data-elementor-id="36"
       class="elementor elementor-36 elementor-location-header"
@@ -791,25 +800,7 @@
                       </li>
                     </ul>
                   </nav>
-                  <!-- <div
-				class="elementor-menu-toggle"
-				role="button"
-				tabindex="0"
-				aria-label="Menu Toggle"
-				aria-expanded="false"
-			  >
-				<i
-				  aria-hidden="true"
-				  role="presentation"
-				  class="elementor-menu-toggle__icon--open eicon-menu-bar"
-				></i
-				><i
-				  aria-hidden="true"
-				  role="presentation"
-				  class="elementor-menu-toggle__icon--close eicon-close"
-				></i>
-				<span class="elementor-screen-only">Menu</span>
-			  </div> -->
+                 
                   <nav
                     class="elementor-nav-menu--dropdown elementor-nav-menu__container"
                     role="navigation"
@@ -859,7 +850,43 @@
           </div>
         </div>
       </section>
+    </div> -->
+
+    <div class="navbar" style="display: flex; background-color:#00000096; justify-content: space-between; align-items: center; padding: 10px; position: fixed; z-index: 9999; width: 100%;">
+    
+      <div>
+        <a href="index.html" style="text-decoration: none;">
+          <img
+            src="./styles/images/content/footerLogo.png"
+            alt="logo"
+            width="100"
+            height="100"
+            style="max-width: 100%; height: auto;"
+          />
+        </a>
+      </div>
+     
+    
+      <div class="navbar-links" style="display: flex; align-items: center;">
+        <div style="margin-right: 10px;">
+          <a href="index.html" style="color: white; text-decoration: none;">Home</a>
+        </div>
+        <div style="margin-right: 10px;">
+          <a href="about.html" style="color: white; text-decoration: none;">About</a>
+        </div>
+        <div style="margin-right: 10px;">
+          <a href="team.html" style="color: white; text-decoration: none;">Team</a>
+        </div>
+        <div style="margin-right: 10px;">
+          <a href="service.html" style="color: white; text-decoration: none;">Service</a>
+        </div>
+        <div style="margin-right: 10px;">
+          <a href="contact.html" style="color: white; text-decoration: none;">Contact</a>
+        </div>
+      </div>
     </div>
+    
+
 
     <main
       id="content"
@@ -873,6 +900,7 @@
           class="elementor elementor-24"
         >
           <section
+          style="margin-top: 0px"
             class="ob-is-breaking-bad elementor-section elementor-top-section elementor-element elementor-element-d2af31f elementor-section-height-full elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
             data-id="d2af31f"
             data-element_type="section"
