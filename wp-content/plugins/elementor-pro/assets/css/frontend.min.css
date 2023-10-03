@@ -10541,7 +10541,7 @@ body.elementor-editor-active
   align-items: center;
   -ms-flex-line-pack: center;
   align-content: center;
-  padding: 35px;
+  padding: 0px;
   width: 100%;
 }
 .elementor-cta__content,

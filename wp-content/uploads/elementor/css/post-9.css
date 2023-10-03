@@ -1475,9 +1475,9 @@ body.rtl .elementor-9 .elementor-element.elementor-element-a6af0cc {
   .elementor-element.elementor-element-3a6bbec
   .elementor-cta__title {
   font-family: "Oswald", Sans-serif;
-  font-size: 28px;
+  /* font-size: 28px; */
   font-weight: 600;
-  color: var(--e-global-color-primary);
+  color: var(--wp--preset--color--white);
 }
 .elementor-9
   .elementor-element.elementor-element-3a6bbec
@@ -1578,9 +1578,9 @@ body.rtl .elementor-9 .elementor-element.elementor-element-a6af0cc {
   .elementor-element.elementor-element-67bba6c
   .elementor-cta__title {
   font-family: "Oswald", Sans-serif;
-  font-size: 28px;
+  /* font-size: 28px; */
   font-weight: 600;
-  color: var(--e-global-color-primary);
+  color: var(--wp--preset--color--white);
 }
 .elementor-9
   .elementor-element.elementor-element-67bba6c
@@ -1649,7 +1649,7 @@ body.rtl .elementor-9 .elementor-element.elementor-element-a6af0cc {
   font-weight: 700;
   letter-spacing: 5.9px;
   mix-blend-mode: overlay;
-  margin-top: -45px;
+  margin-top: -15px;
 }
 body:not(.rtl) .elementor-9 .elementor-element.elementor-element-7d65799 {
   left: 0%;

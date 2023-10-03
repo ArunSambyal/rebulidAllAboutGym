@@ -773,6 +773,83 @@
         border-radius: 10px;
       }
 
+
+
+
+
+
+
+
+
+      /* .popup-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+
+} */
+.popup-container {
+    position: absolute;
+    z-index: 0; /* Adjust the z-index value as needed */
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none; /* Hide the popup by default */
+    justify-content: center;
+    align-items: center;
+  }
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  text-align: left;
+}
+
+.close-popup-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #EF4823;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+#manrritpaul-popup {
+  position: fixed;
+  top: 150px;
+
+
+}
+
+#amreen-popup {
+  position: fixed;
+  top: 150px;
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
     </style>
     <script>
       !(function (f, b, e, v, n, t, s) {
@@ -801,6 +878,51 @@
     /></noscript>
 
    
+
+
+
+
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+    const manrritpaulPopup = document.getElementById("manrritpaul-popup");
+    const amreenPopup = document.getElementById("amreen-popup");
+
+    const manrritpaulButton = document.querySelector("[data-target='manrritpaul-popup']");
+    const amreenButton = document.querySelector("[data-target='amreen-popup']");
+
+    // Add event listeners to open popups
+    manrritpaulButton.addEventListener("click", function () {
+      manrritpaulPopup.style.display = "block";
+      amreenPopup.style.display = "none"; // Hide Amreen's popup
+    });
+
+    amreenButton.addEventListener("click", function () {
+      amreenPopup.style.display = "block";
+      manrritpaulPopup.style.display = "none"; // Hide Manrritpaul's popup
+    });
+
+    // Add event listeners to close popups
+    const closeButtons = document.querySelectorAll(".close-popup-button");
+    closeButtons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        manrritpaulPopup.style.display = "none";
+        amreenPopup.style.display = "none";
+      });
+    });
+  })
+</script>
+
+
+
+
+
+
+
+
+
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -1088,6 +1210,7 @@ experience and expertise in gym planning & management and training & nutrition.
                       </p>
                     </div>
                   </div>
+                  
                   <div
                     class="elementor-element elementor-element-3a6bbec elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-cta--skin-classic elementor-animated-content elementor-widget elementor-widget-call-to-action"
                     data-id="3a6bbec"
@@ -1111,18 +1234,35 @@ experience and expertise in gym planning & management and training & nutrition.
                           >
                           Manrritpaul Singh Ubhi
                        
-                          <span style="font-size: 20px;color: #d44425cf" ><br> Founder </span>   
+                          <span style="font-size: 18px;color: #d44425cf" ><br> Founder </span>   
                           </h2>
-						  <ul style="color: #000000; text-align: left"> 
-							<li>15+ years’ experience as a Business Consultant for Gym/Health Club Management</li>
-							<li>Graduate in Architecture</li>
-							<li>Skills in cost metric gym designing</li>
-							<li>Designed many notable and award-winning gym facilities PAN India</li>
-							<li>Featured in leading lifestyle magazines including internationally acclaimed ‘Club Industry’ magazine</li>
-							<li>Product Specialist from Cybex Research Institute Medway</li>
-							<li>Engaged as a sales channel for premium fitness equipment provider for setting up gyms for all sectors including commercial, institutional, corporate, hospitality, residential, and HNI</li>
-							<li>Partner at Rhino’s Gym India; a recognized gym chain having PAN India locations via franchise network successfully operating in Delhi, Maharashtra, Gujarat, Punjab, Uttar Pradesh, J&K, and Jharkhand</li>
-						  </ul>
+                          <div
+                          class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item"
+                        >
+                          <a
+                            class="elementor-cta__button elementor-button elementor-size-sm  see-more-button"
+                            data-target="manrritpaul-popup"
+                          >
+                            Read More
+                          </a>
+                        </div>
+                        
+                        
+						
+                          <div class="popup-container" id="manrritpaul-popup">
+                            <ul style="color:#ffffff; text-align: left"> 
+                              <li>15+ years’ experience as a Business Consultant for Gym/Health Club Management</li>
+                              <li>Graduate in Architecture</li>
+                              <li>Skills in cost metric gym designing</li>
+                              <li>Designed many notable and award-winning gym facilities PAN India</li>
+                              <li>Featured in leading lifestyle magazines including internationally acclaimed ‘Club Industry’ magazine</li>
+                              <li>Product Specialist from Cybex Research Institute Medway</li>
+                              <li>Engaged as a sales channel for premium fitness equipment provider for setting up gyms for all sectors including commercial, institutional, corporate, hospitality, residential, and HNI</li>
+                              <li>Partner at Rhino’s Gym India; a recognized gym chain having PAN India locations via franchise network successfully operating in Delhi, Maharashtra, Gujarat, Punjab, Uttar Pradesh, J&K, and Jharkhand</li>
+                              </ul>
+                            <button class="close-popup-button">Close</button>
+                          </div>
+                         
                           <div
                             class="elementor-cta__description elementor-cta__content-item elementor-content-item"
                           >
@@ -1138,8 +1278,8 @@ experience and expertise in gym planning & management and training & nutrition.
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div
+                  </div> 
+                   <div
                     class="elementor-element elementor-element-67bba6c elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-cta--skin-classic elementor-animated-content elementor-widget elementor-widget-call-to-action"
                     data-id="67bba6c"
                     data-element_type="widget"
@@ -1152,7 +1292,7 @@ experience and expertise in gym planning & management and training & nutrition.
                           <div
                             class="elementor-content-item elementor-cta__content-item elementor-icon-wrapper elementor-cta__icon elementor-view-stacked elementor-shape-circle"
                           >
-                          <img src="./styles/images/content/team (2).jpeg" alt="Your Image Description">
+                          <img src="./styles/images/content/team (2).jpeg" alt="Your Image Description" >
                            
                           </div>
 
@@ -1160,22 +1300,42 @@ experience and expertise in gym planning & management and training & nutrition.
                             class="elementor-cta__title elementor-cta__content-item elementor-content-item"
                           >
                           Amreen Chadha 
-                          <span style="font-size: 20px;color:#d44425cf"><br >   Associate Consultant </span> 
+                          <span style="font-size: 18px;color:#d44425cf"><br > Associate Consultant </span> 
                         
                           </h2>
-						  <ul style="color: #000000; text-align: left; ;">
-							<li>Exercise Science Expert (Women’s Health Specialist)</li>
-							<li>Founder of The Women’s Course (A comprehensive and scientifically backed information on Women’s health and fitness)</li>
-							<li>Certified in Food Science & Nutrition</li>
-							<li>Resistance Training Specialist from RTS Global</li>
-							<li>Graduate in Legal Studies</li>
-							<li>Featured in leading lifestyle magazines</li>
-							<li>Excellent skills in fitness education, coaching, and consultation</li>
-							<li>Expert in fat loss, gut health, and women’s health</li>
-							<li>Expert in employee training and education in the fitness business</li>
-							<li>Conducted tailor-made courses to create upscale training for fitness club employees at various locations</li>
-							<li>Coached and delivered proven results to more than 1000 clients with fitness transformations on both online and offline platforms</li>
-						  </ul>
+                          <div
+                          class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item"
+                        >
+                          <a
+                            class="elementor-cta__button elementor-button elementor-size-sm  see-more-button"
+                            data-target="amreen-popup"
+                          >
+                            Read More
+                          </a>
+                        </div>
+             
+
+                          <div class="popup-container" id="amreen-popup">
+                            <ul style="color: #ffffff; text-align: left; ;">
+                              <li>Exercise Science Expert (Women’s Health Specialist)</li>
+                              <li>Founder of The Women’s Course (A comprehensive and scientifically backed information on Women’s health and fitness)</li>
+                              <li>Certified in Food Science & Nutrition</li>
+                              <li>Resistance Training Specialist from RTS Global</li>
+                              <li>Graduate in Legal Studies</li>
+                              <li>Featured in leading lifestyle magazines</li>
+                              <li>Excellent skills in fitness education, coaching, and consultation</li>
+                              <li>Expert in fat loss, gut health, and women’s health</li>
+                              <li>Expert in employee training and education in the fitness business</li>
+                              <li>Conducted tailor-made courses to create upscale training for fitness club employees at various locations</li>
+                              <li>Coached and delivered proven results to more than 1000 clients with fitness transformations on both online and offline platforms</li>
+                              </ul>
+                            <button class="close-popup-button">Close</button>
+                          </div>
+
+
+
+                          
+						 
                           <div
                             class="elementor-cta__description elementor-cta__content-item elementor-content-item"
                           >
@@ -1191,7 +1351,8 @@ experience and expertise in gym planning & management and training & nutrition.
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> 
+                
                   <div
                     class="elementor-element elementor-element-7d65799 elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-heading"
                     data-id="7d65799"

@@ -276,18 +276,19 @@ button:-moz-focusring {
 button {
   display: inline-block;
   font-weight: 400;
-  color: #c36;
+  color: #ff7000;
   text-align: center;
   white-space: nowrap;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: transparent;
-  border: 1px solid #c36;
-  padding: 0.5rem 1rem;
+  background-color: #cccc;
+  border: 1px solid black;
+  /* padding: 0.5rem 1rem; */
+  margin-left: 120px;
   font-size: 1rem;
-  border-radius: 3px;
+  border-radius: 8px;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
@@ -421,5 +422,5 @@ ul {
   outline: 0;
   font-size: 100%;
   vertical-align: baseline;
-  background: transparent;
+  background: rgb(15,15,15);;
 }
